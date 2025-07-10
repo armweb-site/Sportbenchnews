@@ -53,25 +53,22 @@ Body {
     margin-top: 30px;
     margin-left: 20px;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .slide-one img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 .slide-one img:hover {
-    width: 420px;
-    height: 410px;
+    width: 210px;
+    height: 210px;
     transition: ease-in-out 0.4s;
     border: 5px solid wheat;
     box-shadow: white;
 }
 
-.slide-one a{
-    color: white;
-    text-decoration: none;
-}
 
 .slide-one a:hover{
     background-color: aqua;
